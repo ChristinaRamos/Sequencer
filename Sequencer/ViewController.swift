@@ -27,7 +27,11 @@ class ViewController: UIKit.UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    @IBAction func noteTapped(sender : AnyObject) {
+        println(sender.tag!)
+    }
+    
     struct Drums {
         var snare : [Bool]
         var kick : [Bool]
