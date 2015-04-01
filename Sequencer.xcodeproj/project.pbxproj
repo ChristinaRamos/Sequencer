@@ -81,11 +81,11 @@
 			children = (
 				2FB285261ACA53FD00D6BCE3 /* AppDelegate.swift */,
 				2FB285281ACA53FD00D6BCE3 /* ViewController.swift */,
+				2FEB97001ACB90D200B80A76 /* TableViewController.swift */,
 				2FB2854C1ACA731D00D6BCE3 /* CheckBox.swift */,
 				2FB2852A1ACA53FD00D6BCE3 /* Main.storyboard */,
 				2FB2852D1ACA53FD00D6BCE3 /* Images.xcassets */,
 				2FB285241ACA53FD00D6BCE3 /* Supporting Files */,
-				2FEB97001ACB90D200B80A76 /* TableViewController.swift */,
 			);
 			path = Sequencer;
 			sourceTree = "<group>";

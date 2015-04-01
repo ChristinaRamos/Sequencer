@@ -11,11 +11,10 @@ import UIKit
 class ViewController: UIKit.UIViewController {
 
     @IBOutlet var totalTextField : UITextField!
+    var drums : Drums = Drums()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let value = UIInterfaceOrientation.LandscapeLeft.rawValue
-        UIDevice.currentDevice().setValue(value, forKey: "orientation")
         
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -29,6 +28,18 @@ class ViewController: UIKit.UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    struct Drums {
+        var snare : [Bool]
+        var kick : [Bool]
+        var hat : [Bool]
+        var cymbal : [Bool]
+        
+        init() {
+            snare  = [Bool] (count: 16, repeatedValue: false)
+            kick   = [Bool] (count: 16, repeatedValue: false)
+            hat    = [Bool] (count: 16, repeatedValue: false)
+            cymbal = [Bool] (count: 16, repeatedValue: false)
+        }
+    }
 }
 
