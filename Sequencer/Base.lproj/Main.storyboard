@@ -31,6 +31,9 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="newTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="20c-9p-Ory"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dIh-hh-nP3">
                                 <rect key="frame" x="366" y="49" width="85" height="42"/>
@@ -40,6 +43,7 @@
                                     <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="loadTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iLy-Au-dwR"/>
                                     <segue destination="aXR-y2-6k1" kind="popoverPresentation" popoverAnchorView="dIh-hh-nP3" id="VaS-fm-qh8">
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                     </segue>
@@ -731,6 +735,70 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
                         <outlet property="totalTextField" destination="T6S-FH-ewf" id="4w0-gD-exB"/>
+                        <outletCollection property="collectionOfSnares" destination="cd6-9W-neB" collectionClass="NSMutableArray" id="nLr-tH-zwg"/>
+                        <outletCollection property="collectionOfSnares" destination="lgt-Bt-4gd" collectionClass="NSMutableArray" id="8vG-WB-Jvb"/>
+                        <outletCollection property="collectionOfSnares" destination="vx7-kB-ZyZ" collectionClass="NSMutableArray" id="Ids-lE-xgX"/>
+                        <outletCollection property="collectionOfSnares" destination="yN5-01-pj4" collectionClass="NSMutableArray" id="XdJ-fc-kga"/>
+                        <outletCollection property="collectionOfSnares" destination="bDg-Ej-VtI" collectionClass="NSMutableArray" id="0oi-Kb-hhl"/>
+                        <outletCollection property="collectionOfSnares" destination="imM-T3-pYb" collectionClass="NSMutableArray" id="rh7-AO-jZU"/>
+                        <outletCollection property="collectionOfSnares" destination="pH1-iD-Mn7" collectionClass="NSMutableArray" id="xY3-gT-Nc2"/>
+                        <outletCollection property="collectionOfSnares" destination="ZzA-tM-dXj" collectionClass="NSMutableArray" id="eyA-Rr-quZ"/>
+                        <outletCollection property="collectionOfSnares" destination="CDu-X9-Th4" collectionClass="NSMutableArray" id="RQl-4c-4sw"/>
+                        <outletCollection property="collectionOfSnares" destination="FGb-dp-OkT" collectionClass="NSMutableArray" id="6sM-0J-1Rc"/>
+                        <outletCollection property="collectionOfSnares" destination="Vf8-vb-buU" collectionClass="NSMutableArray" id="N4l-Nw-HH4"/>
+                        <outletCollection property="collectionOfSnares" destination="D8J-dd-Q2E" collectionClass="NSMutableArray" id="ZTo-U0-pJ3"/>
+                        <outletCollection property="collectionOfSnares" destination="xal-N8-LRI" collectionClass="NSMutableArray" id="05Z-et-K2B"/>
+                        <outletCollection property="collectionOfSnares" destination="YkZ-U9-IUh" collectionClass="NSMutableArray" id="7k9-Hi-C28"/>
+                        <outletCollection property="collectionOfSnares" destination="86w-ai-OBg" collectionClass="NSMutableArray" id="ou7-nQ-Sks"/>
+                        <outletCollection property="collectionOfSnares" destination="Iut-Tq-v6e" collectionClass="NSMutableArray" id="FpX-uA-OzJ"/>
+                        <outletCollection property="collectionOfKicks" destination="QIp-yz-1Xj" collectionClass="NSMutableArray" id="8rj-Va-Epd"/>
+                        <outletCollection property="collectionOfKicks" destination="EZh-BJ-aTO" collectionClass="NSMutableArray" id="I7e-oz-7dQ"/>
+                        <outletCollection property="collectionOfKicks" destination="7Ti-1G-VLB" collectionClass="NSMutableArray" id="Odp-Tr-okg"/>
+                        <outletCollection property="collectionOfKicks" destination="JwZ-4m-6hS" collectionClass="NSMutableArray" id="nhg-6A-U3L"/>
+                        <outletCollection property="collectionOfKicks" destination="hUF-zl-yNh" collectionClass="NSMutableArray" id="eqg-bK-dIn"/>
+                        <outletCollection property="collectionOfKicks" destination="KOy-XW-tJp" collectionClass="NSMutableArray" id="G0H-jw-Ukg"/>
+                        <outletCollection property="collectionOfKicks" destination="nnD-0R-UYZ" collectionClass="NSMutableArray" id="H7G-XU-AMT"/>
+                        <outletCollection property="collectionOfKicks" destination="o5d-o4-N5V" collectionClass="NSMutableArray" id="IcY-Sr-efx"/>
+                        <outletCollection property="collectionOfKicks" destination="st7-WX-Y0H" collectionClass="NSMutableArray" id="fy4-Vn-Gua"/>
+                        <outletCollection property="collectionOfKicks" destination="gap-ff-7Q3" collectionClass="NSMutableArray" id="WaY-ez-aJX"/>
+                        <outletCollection property="collectionOfKicks" destination="hSf-6c-oT8" collectionClass="NSMutableArray" id="map-gA-6ks"/>
+                        <outletCollection property="collectionOfKicks" destination="lpC-7E-mr9" collectionClass="NSMutableArray" id="JOT-vI-hhD"/>
+                        <outletCollection property="collectionOfKicks" destination="d82-xM-aau" collectionClass="NSMutableArray" id="gc4-kg-rRg"/>
+                        <outletCollection property="collectionOfKicks" destination="wxx-zm-s4W" collectionClass="NSMutableArray" id="uM7-pk-Aya"/>
+                        <outletCollection property="collectionOfKicks" destination="jfy-l6-DvH" collectionClass="NSMutableArray" id="C0T-av-M8N"/>
+                        <outletCollection property="collectionOfKicks" destination="vi9-0V-dVp" collectionClass="NSMutableArray" id="nPu-Ze-YQT"/>
+                        <outletCollection property="collectionOfHats" destination="aIB-XX-wlA" collectionClass="NSMutableArray" id="aJf-fT-XJN"/>
+                        <outletCollection property="collectionOfHats" destination="6PH-Rc-Xfm" collectionClass="NSMutableArray" id="9Ur-mO-3Jh"/>
+                        <outletCollection property="collectionOfHats" destination="p4r-oB-HUb" collectionClass="NSMutableArray" id="yKm-fA-TmC"/>
+                        <outletCollection property="collectionOfHats" destination="E11-PU-skX" collectionClass="NSMutableArray" id="HcK-sB-aXE"/>
+                        <outletCollection property="collectionOfHats" destination="GoW-jg-c75" collectionClass="NSMutableArray" id="IKo-DP-vsi"/>
+                        <outletCollection property="collectionOfHats" destination="V7L-L8-Hj7" collectionClass="NSMutableArray" id="il1-b1-6lj"/>
+                        <outletCollection property="collectionOfHats" destination="J6B-ZZ-6ub" collectionClass="NSMutableArray" id="ia4-53-bJU"/>
+                        <outletCollection property="collectionOfHats" destination="fw8-Nd-d4W" collectionClass="NSMutableArray" id="qbQ-6D-duB"/>
+                        <outletCollection property="collectionOfHats" destination="CZg-qm-VQK" collectionClass="NSMutableArray" id="jVp-jN-yUC"/>
+                        <outletCollection property="collectionOfHats" destination="LSe-zc-lEW" collectionClass="NSMutableArray" id="YqO-l2-QKs"/>
+                        <outletCollection property="collectionOfHats" destination="bWg-Mg-NLp" collectionClass="NSMutableArray" id="X1T-fH-tnh"/>
+                        <outletCollection property="collectionOfHats" destination="ff7-AU-m2W" collectionClass="NSMutableArray" id="hNO-8r-Q2J"/>
+                        <outletCollection property="collectionOfHats" destination="SGt-ob-kSX" collectionClass="NSMutableArray" id="mEl-qw-qBq"/>
+                        <outletCollection property="collectionOfHats" destination="4DS-Dc-j9w" collectionClass="NSMutableArray" id="F9P-qe-21s"/>
+                        <outletCollection property="collectionOfHats" destination="qUr-xP-Pli" collectionClass="NSMutableArray" id="fUi-p8-q2U"/>
+                        <outletCollection property="collectionOfHats" destination="2fN-BX-rrs" collectionClass="NSMutableArray" id="MQs-d6-p9L"/>
+                        <outletCollection property="collectionOfCymbals" destination="N2t-gs-eqB" collectionClass="NSMutableArray" id="4YL-0b-nj2"/>
+                        <outletCollection property="collectionOfCymbals" destination="ZBk-VI-hed" collectionClass="NSMutableArray" id="E1d-cD-Hnr"/>
+                        <outletCollection property="collectionOfCymbals" destination="Txc-62-agq" collectionClass="NSMutableArray" id="3XI-xZ-Lmt"/>
+                        <outletCollection property="collectionOfCymbals" destination="2SY-4J-I3G" collectionClass="NSMutableArray" id="Dws-uV-dSG"/>
+                        <outletCollection property="collectionOfCymbals" destination="7L0-va-ktN" collectionClass="NSMutableArray" id="BSH-MU-rAV"/>
+                        <outletCollection property="collectionOfCymbals" destination="CaI-y9-j4l" collectionClass="NSMutableArray" id="sor-9u-wKK"/>
+                        <outletCollection property="collectionOfCymbals" destination="pg6-QL-GNr" collectionClass="NSMutableArray" id="Vsf-zT-eOJ"/>
+                        <outletCollection property="collectionOfCymbals" destination="Q1Q-9w-228" collectionClass="NSMutableArray" id="hcD-CM-mPZ"/>
+                        <outletCollection property="collectionOfCymbals" destination="mdt-q4-mCv" collectionClass="NSMutableArray" id="3ro-sW-i7u"/>
+                        <outletCollection property="collectionOfCymbals" destination="1mX-ru-g8U" collectionClass="NSMutableArray" id="pLB-nA-7oO"/>
+                        <outletCollection property="collectionOfCymbals" destination="USc-Gc-4dw" collectionClass="NSMutableArray" id="chR-Rm-IGp"/>
+                        <outletCollection property="collectionOfCymbals" destination="N3E-ai-hBA" collectionClass="NSMutableArray" id="Sha-ze-Nc5"/>
+                        <outletCollection property="collectionOfCymbals" destination="b6G-79-koC" collectionClass="NSMutableArray" id="ld5-4x-K2S"/>
+                        <outletCollection property="collectionOfCymbals" destination="w1B-k7-R9l" collectionClass="NSMutableArray" id="L8O-nm-8hW"/>
+                        <outletCollection property="collectionOfCymbals" destination="Ixc-aI-5b6" collectionClass="NSMutableArray" id="ThU-wM-ADL"/>
+                        <outletCollection property="collectionOfCymbals" destination="XSU-T4-ATr" collectionClass="NSMutableArray" id="FlI-0S-ygH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

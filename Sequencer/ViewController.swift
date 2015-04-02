@@ -13,6 +13,11 @@ import UIKit
 class ViewController: UIKit.UIViewController {
 
     @IBOutlet var totalTextField : UITextField!
+    @IBOutlet var collectionOfSnares: Array<CheckBox>?
+    @IBOutlet var collectionOfKicks: Array<CheckBox>?
+    @IBOutlet var collectionOfHats: Array<CheckBox>?
+    @IBOutlet var collectionOfCymbals: Array<CheckBox>?
+    
     var drums : Drums = Drums()
     var playing : Bool = false
     
@@ -21,22 +26,43 @@ class ViewController: UIKit.UIViewController {
     var hat = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("hihat-808", ofType: "wav")!)!
     var cymbal = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("crash-808", ofType: "wav")!)!
 
-    var audioPlayer = AVAudioPlayer()
+    var snarePlayer = AVAudioPlayer()
+    var kickPlayer = AVAudioPlayer()
+    var hatPlayer = AVAudioPlayer()
+    var cymbalPlayer = AVAudioPlayer()
     
     // Trigger the sound effect when the player grabs the coin
-    func playBeat(drumType: NSURL) {
-        audioPlayer = AVAudioPlayer(contentsOfURL: drumType, error: nil)
-        audioPlayer.prepareToPlay()
-        audioPlayer.play()
+    func playSnare() {
+        snarePlayer = AVAudioPlayer(contentsOfURL: snare, error: nil)
+        snarePlayer.prepareToPlay()
+        snarePlayer.play()
+    }
+    
+    func playKick() {
+        kickPlayer = AVAudioPlayer(contentsOfURL: kick, error: nil)
+        kickPlayer.prepareToPlay()
+        kickPlayer.play()
+    }
+    
+    func playHat() {
+        hatPlayer = AVAudioPlayer(contentsOfURL: hat, error: nil)
+        hatPlayer.prepareToPlay()
+        hatPlayer.play()
+    }
+    
+    func playCymbal() {
+        cymbalPlayer = AVAudioPlayer(contentsOfURL: cymbal, error: nil)
+        cymbalPlayer.prepareToPlay()
+        cymbalPlayer.play()
     }
     
     func playSequence() {
         var pos = 0
         while playing {
-            if(drums.kick[pos]) {playBeat(kick)}
-            if(drums.snare[pos]) {playBeat(snare)}
-            if(drums.hat[pos]) {playBeat(hat)}
-            if(drums.cymbal[pos]) {playBeat(cymbal)}
+            if(drums.kick[pos]) {playKick()}
+            if(drums.snare[pos]) {playSnare()}
+            if(drums.hat[pos]) {playHat()}
+            if(drums.cymbal[pos]) {playCymbal()}
             
             pos = (pos + 1) % 16
             
@@ -77,6 +103,19 @@ class ViewController: UIKit.UIViewController {
             let thread = NSThread(target: self, selector: "playSequence", object: nil)
             thread.start()
         }
+    }
+    
+    @IBAction func newTapped(sender : AnyObject) {
+        totalTextField.text = "Untitled"
+        
+    }
+    
+    @IBAction func loadTapped(sender : AnyObject) {
+        
+    }
+    
+    @IBAction func saveTapped(sender : AnyObject) {
+        
     }
     
     struct Drums {
