@@ -235,7 +235,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YEN-28-Enh"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EZh-BJ-aTO" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="17" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EZh-BJ-aTO" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="152" y="231" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -245,7 +245,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Hl-C0-CbQ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ti-1G-VLB" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="18" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ti-1G-VLB" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="180" y="231" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -255,7 +255,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C7s-XL-Axo"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JwZ-4m-6hS" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="19" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JwZ-4m-6hS" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="208" y="231" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -265,7 +265,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MhH-3S-YFy"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hUF-zl-yNh" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="20" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hUF-zl-yNh" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="236" y="231" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -275,7 +275,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ouz-tM-ULz"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KOy-XW-tJp" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="21" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KOy-XW-tJp" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="264" y="231" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -285,7 +285,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5rE-SF-xMa"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nnD-0R-UYZ" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="22" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nnD-0R-UYZ" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="292" y="231" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -295,7 +295,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t0c-6f-zMS"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o5d-o4-N5V" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="23" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o5d-o4-N5V" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="320" y="231" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -305,7 +305,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7p7-Xo-iyy"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="st7-WX-Y0H" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="24" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="st7-WX-Y0H" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="348" y="231" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -315,7 +315,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zgu-0m-qTn"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gap-ff-7Q3" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="25" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gap-ff-7Q3" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="376" y="231" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -325,7 +325,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eO9-Tf-wmf"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hSf-6c-oT8" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="26" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hSf-6c-oT8" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="404" y="231" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -335,7 +335,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FeA-2e-4gq"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="11" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lpC-7E-mr9" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="27" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lpC-7E-mr9" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="432" y="231" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -345,7 +345,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rYg-TC-dO1"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="12" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d82-xM-aau" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="28" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d82-xM-aau" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="460" y="231" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -355,7 +355,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C1N-wC-jup"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="13" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wxx-zm-s4W" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="29" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wxx-zm-s4W" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="488" y="231" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -365,7 +365,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VNW-Fx-l6d"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="14" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jfy-l6-DvH" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="30" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jfy-l6-DvH" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="516" y="231" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -375,7 +375,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kAW-IP-C9k"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="15" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vi9-0V-dVp" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="31" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vi9-0V-dVp" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="544" y="231" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -385,7 +385,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bJU-1b-qO5"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aIB-XX-wlA" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="32" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aIB-XX-wlA" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="124" y="291" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -395,7 +395,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RlN-SY-ETe"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6PH-Rc-Xfm" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="33" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6PH-Rc-Xfm" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="152" y="291" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -405,7 +405,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mXK-LA-HAL"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p4r-oB-HUb" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="34" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p4r-oB-HUb" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="180" y="291" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -415,7 +415,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PfT-hj-cSk"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E11-PU-skX" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="35" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E11-PU-skX" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="208" y="291" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -425,7 +425,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3em-GM-BLp"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GoW-jg-c75" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="36" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GoW-jg-c75" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="236" y="291" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -435,7 +435,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LGU-WX-9Uy"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V7L-L8-Hj7" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="37" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V7L-L8-Hj7" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="264" y="291" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -445,7 +445,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rhb-Xt-DgI"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J6B-ZZ-6ub" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="38" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J6B-ZZ-6ub" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="292" y="291" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -455,7 +455,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jZP-4C-XBu"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fw8-Nd-d4W" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="39" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fw8-Nd-d4W" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="320" y="291" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -465,7 +465,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="av8-S9-RAo"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CZg-qm-VQK" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="40" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CZg-qm-VQK" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="348" y="291" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -475,17 +475,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hbW-wM-viw"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LSe-zc-lEW" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
-                                <rect key="frame" x="376" y="291" width="20" height="30"/>
-                                <state key="normal" title="0">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n63-Qg-qy3"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWg-Mg-NLp" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="42" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWg-Mg-NLp" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="404" y="291" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -495,7 +485,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gdX-Dt-kXs"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="11" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ff7-AU-m2W" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="43" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ff7-AU-m2W" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="432" y="291" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -505,7 +495,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h1y-Kc-tAg"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="12" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SGt-ob-kSX" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="44" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SGt-ob-kSX" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="460" y="291" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -515,7 +505,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EMa-2y-aQ0"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="13" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4DS-Dc-j9w" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="45" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4DS-Dc-j9w" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="488" y="291" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -525,7 +515,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S2U-tz-2ay"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="14" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qUr-xP-Pli" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="46" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qUr-xP-Pli" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="516" y="291" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -535,7 +525,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RS4-2M-sY2"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="15" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2fN-BX-rrs" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="47" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2fN-BX-rrs" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="544" y="291" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -545,7 +535,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6NT-5q-4cZ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N2t-gs-eqB" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="48" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N2t-gs-eqB" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="124" y="347" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -555,7 +545,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uaW-3B-zUK"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZBk-VI-hed" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="49" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZBk-VI-hed" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="152" y="347" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -565,7 +555,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SGk-X4-6mf"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Txc-62-agq" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="50" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Txc-62-agq" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="180" y="347" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -575,7 +565,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="itf-5Q-4oL"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2SY-4J-I3G" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="51" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2SY-4J-I3G" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="208" y="347" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -585,7 +575,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9pb-cs-7p5"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7L0-va-ktN" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="52" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7L0-va-ktN" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="236" y="347" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -595,7 +585,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yvH-iP-56f"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CaI-y9-j4l" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="53" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CaI-y9-j4l" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="264" y="347" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -605,7 +595,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="27b-kE-ff0"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pg6-QL-GNr" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="54" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pg6-QL-GNr" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="292" y="347" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -615,7 +605,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jYu-S9-R5Q"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q1Q-9w-228" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="55" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q1Q-9w-228" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="320" y="347" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -625,7 +615,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2R8-Ye-gml"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mdt-q4-mCv" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="56" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mdt-q4-mCv" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="348" y="347" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -635,7 +625,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="snR-CE-WOR"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1mX-ru-g8U" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="57" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1mX-ru-g8U" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="376" y="347" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -645,7 +635,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bNX-if-947"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="USc-Gc-4dw" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="58" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="USc-Gc-4dw" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="404" y="347" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -655,7 +645,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Oia-Cd-KPL"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="11" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N3E-ai-hBA" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="59" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N3E-ai-hBA" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="432" y="347" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -665,7 +655,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c6k-U1-36y"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="12" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b6G-79-koC" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="60" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b6G-79-koC" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="460" y="347" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -675,7 +665,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZpG-gw-dy1"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="13" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w1B-k7-R9l" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="61" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w1B-k7-R9l" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="488" y="347" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -685,7 +675,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HQA-e6-NPT"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="14" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ixc-aI-5b6" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="62" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ixc-aI-5b6" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="516" y="347" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -695,7 +685,7 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lxq-Ap-Mnw"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="15" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XSU-T4-ATr" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="63" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XSU-T4-ATr" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="544" y="347" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -705,14 +695,16 @@
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GL7-22-tXh"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H3X-Rc-xiJ">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H3X-Rc-xiJ" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="259" y="404" width="82" height="53"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                 <state key="normal" title="Play">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="0.044268090831557028" blue="0.063941479485193575" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="playTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lXu-Bt-QJe"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QIp-yz-1Xj" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                            <button opaque="NO" tag="16" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QIp-yz-1Xj" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="124" y="231" width="20" height="30"/>
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -720,6 +712,16 @@
                                 </state>
                                 <connections>
                                     <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="21Y-DY-kGX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="41" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LSe-zc-lEW" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
+                                <rect key="frame" x="376" y="291" width="20" height="30"/>
+                                <state key="normal" title="0">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="noteTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n63-Qg-qy3"/>
                                 </connections>
                             </button>
                         </subviews>

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FAC06861ACCC61B00AF18FB /* hihat-808.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2FAC06831ACCC61B00AF18FB /* hihat-808.wav */; };
+		2FAC06871ACCC61B00AF18FB /* kick-808.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2FAC06841ACCC61B00AF18FB /* kick-808.wav */; };
+		2FAC06881ACCC61B00AF18FB /* snare-808.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2FAC06851ACCC61B00AF18FB /* snare-808.wav */; };
+		2FAC068A1ACCC63400AF18FB /* crash-808.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2FAC06891ACCC63400AF18FB /* crash-808.wav */; };
 		2FB285271ACA53FD00D6BCE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB285261ACA53FD00D6BCE3 /* AppDelegate.swift */; };
 		2FB285291ACA53FD00D6BCE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB285281ACA53FD00D6BCE3 /* ViewController.swift */; };
 		2FB2852C1ACA53FD00D6BCE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FB2852A1ACA53FD00D6BCE3 /* Main.storyboard */; };
@@ -27,6 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2FAC06831ACCC61B00AF18FB /* hihat-808.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hihat-808.wav"; sourceTree = "<group>"; };
+		2FAC06841ACCC61B00AF18FB /* kick-808.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "kick-808.wav"; sourceTree = "<group>"; };
+		2FAC06851ACCC61B00AF18FB /* snare-808.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "snare-808.wav"; sourceTree = "<group>"; };
+		2FAC06891ACCC63400AF18FB /* crash-808.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "crash-808.wav"; sourceTree = "<group>"; };
 		2FB285211ACA53FD00D6BCE3 /* Sequencer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sequencer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FB285251ACA53FD00D6BCE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FB285261ACA53FD00D6BCE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +66,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2FAC06821ACCC5F500AF18FB /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				2FAC06891ACCC63400AF18FB /* crash-808.wav */,
+				2FAC06831ACCC61B00AF18FB /* hihat-808.wav */,
+				2FAC06841ACCC61B00AF18FB /* kick-808.wav */,
+				2FAC06851ACCC61B00AF18FB /* snare-808.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
 		2FB285181ACA53FD00D6BCE3 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +98,7 @@
 		2FB285231ACA53FD00D6BCE3 /* Sequencer */ = {
 			isa = PBXGroup;
 			children = (
+				2FAC06821ACCC5F500AF18FB /* Sounds */,
 				2FB285261ACA53FD00D6BCE3 /* AppDelegate.swift */,
 				2FB285281ACA53FD00D6BCE3 /* ViewController.swift */,
 				2FEB97001ACB90D200B80A76 /* TableViewController.swift */,
@@ -195,8 +215,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FAC06861ACCC61B00AF18FB /* hihat-808.wav in Resources */,
 				2FB2852C1ACA53FD00D6BCE3 /* Main.storyboard in Resources */,
 				2FB2852E1ACA53FD00D6BCE3 /* Images.xcassets in Resources */,
+				2FAC06881ACCC61B00AF18FB /* snare-808.wav in Resources */,
+				2FAC06871ACCC61B00AF18FB /* kick-808.wav in Resources */,
+				2FAC068A1ACCC63400AF18FB /* crash-808.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
