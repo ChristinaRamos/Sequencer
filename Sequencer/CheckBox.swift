@@ -23,7 +23,7 @@ class CheckBox: UIButton {
             if isOn {
                 self.setImage(UIImage(named:onImage), forState: .Normal)
             } else {
-                self.setImage(UIImage(named:offImage), forState: .Normal)
+                self.setImage(UIImage(named:offImage) , forState: .Normal)
             }
         }
     }

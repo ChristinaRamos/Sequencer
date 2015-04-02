@@ -17,7 +17,6 @@ class ViewController: UIKit.UIViewController, UIPickerViewDataSource,UIPickerVie
     @IBOutlet var collectionOfKicks: Array<CheckBox>!
     @IBOutlet var collectionOfHats: Array<CheckBox>!
     @IBOutlet var collectionOfCymbals: Array<CheckBox>!
-    @IBOutlet weak var tableViewController : TableViewController!
     @IBOutlet weak var pickerView : UIPickerView!
     
     var pd : [String] = ["apple","pie"]
@@ -86,8 +85,6 @@ class ViewController: UIKit.UIViewController, UIPickerViewDataSource,UIPickerVie
             
             pos = (pos + 1) % 16
             
-            println(pos)
-            
             usleep(100000)
         }
     }
@@ -134,10 +131,6 @@ class ViewController: UIKit.UIViewController, UIPickerViewDataSource,UIPickerVie
         return dict
         
     }
-    
-    override func shouldAutorotate() -> Bool {
-        return true
-    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -179,15 +172,18 @@ class ViewController: UIKit.UIViewController, UIPickerViewDataSource,UIPickerVie
     }
     
     @IBAction func loadTapped(sender : AnyObject) {
-        let thingToLoad = sequenceDict.keys.array[pickerView.selectedRowInComponent(0)]
-        drums = sequenceDict[thingToLoad]!
-        totalTextField.text = thingToLoad
-        for i in 0...15 {
-            collectionOfCymbals[i].isOn = drums.cymbal[i]
-            collectionOfHats[i].isOn = drums.hat[i]
-            collectionOfKicks[i].isOn = drums.kick[i]
-            collectionOfSnares[i].isOn = drums.snare[i]
+        if !sequenceDict.isEmpty {
+            let thingToLoad = sequenceDict.keys.array[pickerView.selectedRowInComponent(0)]
+            drums = sequenceDict[thingToLoad]!
+            totalTextField.text = thingToLoad
+            for i in 0...15 {
+                collectionOfCymbals[i].isOn = drums.cymbal[i]
+                collectionOfHats[i].isOn = drums.hat[i]
+                collectionOfKicks[i].isOn = drums.kick[i]
+                collectionOfSnares[i].isOn = drums.snare[i]
+            }
         }
+        
     }
     
     

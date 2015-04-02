@@ -63,92 +63,6 @@
             endingLineNumber = "12"
             landmarkName = "TableViewController"
             landmarkType = "3">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Sequencer.TableViewController.tableView.getter : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UITableView&gt;"
-                  moduleName = "Sequencer"
-                  urlString = "file:///Users/christinaramos/Documents/Github/Sequencer/Sequencer/TableViewController.swift"
-                  timestampString = "449657991.611594"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "12">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Sequencer.TableViewController.tableView.setter : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UITableView&gt;"
-                  moduleName = "Sequencer"
-                  urlString = "file:///Users/christinaramos/Documents/Github/Sequencer/Sequencer/TableViewController.swift"
-                  timestampString = "449657991.61218"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "16">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Sequencer.TableViewController.tableView.materializeForSet : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UITableView&gt;"
-                  moduleName = "Sequencer"
-                  urlString = "file:///Users/christinaramos/Documents/Github/Sequencer/Sequencer/TableViewController.swift"
-                  timestampString = "449657991.612383"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "16">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Sequencer.TableViewController.init (Sequencer.TableViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; Sequencer.TableViewController"
-                  moduleName = "Sequencer"
-                  urlString = "file:///Users/christinaramos/Documents/Github/Sequencer/Sequencer/TableViewController.swift"
-                  timestampString = "449657991.612569"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
-                  offsetFromSymbolStart = "55">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Sequencer.TableViewController.init (Sequencer.TableViewController.Type)() -&gt; Sequencer.TableViewController"
-                  moduleName = "Sequencer"
-                  urlString = "file:///Users/christinaramos/Documents/Github/Sequencer/Sequencer/TableViewController.swift"
-                  timestampString = "449657991.612742"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
-                  offsetFromSymbolStart = "57">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Sequencer.TableViewController.init (Sequencer.TableViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; Sequencer.TableViewController"
-                  moduleName = "Sequencer"
-                  urlString = "file:///Users/christinaramos/Documents/Github/Sequencer/Sequencer/TableViewController.swift"
-                  timestampString = "449657991.612931"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
-                  offsetFromSymbolStart = "64">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -174,11 +88,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sequencer/ViewController.swift"
-            timestampString = "449654860.637086"
+            timestampString = "449696657.162142"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "223"
-            endingLineNumber = "223"
+            startingLineNumber = "219"
+            endingLineNumber = "219"
             landmarkName = "writeSequence(_:)"
             landmarkType = "5">
          </BreakpointContent>

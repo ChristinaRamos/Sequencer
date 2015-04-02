@@ -17,7 +17,6 @@
 		2FB2852E1ACA53FD00D6BCE3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FB2852D1ACA53FD00D6BCE3 /* Images.xcassets */; };
 		2FB2853D1ACA53FD00D6BCE3 /* SequencerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB2853C1ACA53FD00D6BCE3 /* SequencerTests.swift */; };
 		2FB2854D1ACA731D00D6BCE3 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB2854C1ACA731D00D6BCE3 /* CheckBox.swift */; };
-		2FEB97011ACB90D200B80A76 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEB97001ACB90D200B80A76 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +44,6 @@
 		2FB2853B1ACA53FD00D6BCE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FB2853C1ACA53FD00D6BCE3 /* SequencerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequencerTests.swift; sourceTree = "<group>"; };
 		2FB2854C1ACA731D00D6BCE3 /* CheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
-		2FEB97001ACB90D200B80A76 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +99,6 @@
 				2FAC06821ACCC5F500AF18FB /* Sounds */,
 				2FB285261ACA53FD00D6BCE3 /* AppDelegate.swift */,
 				2FB285281ACA53FD00D6BCE3 /* ViewController.swift */,
-				2FEB97001ACB90D200B80A76 /* TableViewController.swift */,
 				2FB2854C1ACA731D00D6BCE3 /* CheckBox.swift */,
 				2FB2852A1ACA53FD00D6BCE3 /* Main.storyboard */,
 				2FB2852D1ACA53FD00D6BCE3 /* Images.xcassets */,
@@ -241,7 +238,6 @@
 				2FB285291ACA53FD00D6BCE3 /* ViewController.swift in Sources */,
 				2FB285271ACA53FD00D6BCE3 /* AppDelegate.swift in Sources */,
 				2FB2854D1ACA731D00D6BCE3 /* CheckBox.swift in Sources */,
-				2FEB97011ACB90D200B80A76 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
