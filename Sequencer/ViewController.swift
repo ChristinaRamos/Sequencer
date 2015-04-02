@@ -10,7 +10,7 @@ import AVFoundation
 import SpriteKit
 import UIKit
 
-class ViewController: UIKit.UIViewController {
+class ViewController: UIKit.UIViewController, UIPickerViewDataSource,UIPickerViewDelegate {
 
     @IBOutlet var totalTextField : UITextField!
     @IBOutlet var collectionOfSnares: Array<CheckBox>!
@@ -18,6 +18,9 @@ class ViewController: UIKit.UIViewController {
     @IBOutlet var collectionOfHats: Array<CheckBox>!
     @IBOutlet var collectionOfCymbals: Array<CheckBox>!
     @IBOutlet weak var tableViewController : TableViewController!
+    @IBOutlet weak var pickerView : UIPickerView!
+    
+    var pd : [String] = ["apple","pie"]
     
     var drums : Drums = Drums()
     var playing : Bool = false
@@ -35,6 +38,18 @@ class ViewController: UIKit.UIViewController {
     var sequenceDict : [String : Drums] = [:]
     
     let file = "sequencer_saves.txt"
+    
+    func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
+        return 1
+    }
+    
+    func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return sequenceDict.keys.array.count
+    }
+    
+    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String! {
+        return sequenceDict.keys.array[row]
+    }
     
     // Trigger the sound effect when the player grabs the coin
     func playSnare() {
@@ -79,6 +94,16 @@ class ViewController: UIKit.UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let documentDirectoryURL = NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask).first! as NSURL
+        let fileDestinationUrl = documentDirectoryURL.URLByAppendingPathComponent("file.txt")
+
+        if let mytext = String(contentsOfURL: fileDestinationUrl, encoding: NSUTF8StringEncoding, error: nil) {
+            sequenceDict = parseFileString(mytext)
+        }
+        
+        pickerView.delegate = self
+        pickerView.dataSource = self
         
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -154,7 +179,15 @@ class ViewController: UIKit.UIViewController {
     }
     
     @IBAction func loadTapped(sender : AnyObject) {
-        self.tableViewController.updateItems(sequenceDict.keys.array)
+        let thingToLoad = sequenceDict.keys.array[pickerView.selectedRowInComponent(0)]
+        drums = sequenceDict[thingToLoad]!
+        totalTextField.text = thingToLoad
+        for i in 0...15 {
+            collectionOfCymbals[i].isOn = drums.cymbal[i]
+            collectionOfHats[i].isOn = drums.hat[i]
+            collectionOfKicks[i].isOn = drums.kick[i]
+            collectionOfSnares[i].isOn = drums.snare[i]
+        }
     }
     
     
@@ -175,13 +208,13 @@ class ViewController: UIKit.UIViewController {
             saveTxt += key + ":" + writeSequence(beat.snare) +  writeSequence(beat.kick) + writeSequence(beat.hat) +  writeSequence(beat.cymbal)
         }
         
+        pickerView.reloadAllComponents()
+        
         //writing
         
         saveTxt.writeToURL(fileDestinationUrl, atomically: true, encoding: NSUTF8StringEncoding, error: nil)
         
-        if let mytext = String(contentsOfURL: fileDestinationUrl, encoding: NSUTF8StringEncoding, error: nil) {
-            parseFileString(mytext)
-        }
+        
     }
     
     func writeSequence (drumType : [Bool]) -> String{
