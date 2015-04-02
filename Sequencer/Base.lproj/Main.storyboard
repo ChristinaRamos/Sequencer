@@ -38,6 +38,17 @@
                                     <action selector="newTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="20c-9p-Ory"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dIh-hh-nP3">
+                                <rect key="frame" x="367" y="49" width="85" height="42"/>
+                                <color key="backgroundColor" red="0.0" green="0.40772091630000001" blue="0.95389441289999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Load">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="loadTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L0w-jx-tSw"/>
+                                </connections>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Snare" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o2V-pb-NlZ">
                                 <rect key="frame" x="54" y="174" width="62" height="31"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -690,6 +701,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H3X-Rc-xiJ" customClass="CheckBox" customModule="Sequencer" customModuleProvider="target">
                                 <rect key="frame" x="259" y="404" width="82" height="53"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                 <state key="normal" title="Play">
                                     <color key="titleColor" red="1" green="0.044268090831557028" blue="0.063941479485193575" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -718,19 +730,8 @@
                                 </connections>
                             </button>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BZU-XG-1BJ">
-                                <rect key="frame" x="371" y="0.0" width="109" height="162"/>
+                                <rect key="frame" x="460" y="0.0" width="109" height="162"/>
                             </pickerView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dIh-hh-nP3">
-                                <rect key="frame" x="484" y="49" width="85" height="42"/>
-                                <color key="backgroundColor" red="0.0" green="0.40772091630000001" blue="0.95389441289999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Load">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="loadTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L0w-jx-tSw"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>

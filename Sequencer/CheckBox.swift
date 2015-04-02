@@ -10,8 +10,8 @@ import UIKit
 
 class CheckBox: UIButton {
     
-    let onImage = UIImage(named: "button_on")
-    let offImage = UIImage(named: "button_off")
+    @IBInspectable var onImage : String = "button_on"
+    @IBInspectable var offImage : String = "button_off"
     
     required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -21,9 +21,9 @@ class CheckBox: UIButton {
     var isOn: Bool = false {
         didSet {
             if isOn {
-                self.setImage(onImage, forState: .Normal)
+                self.setImage(UIImage(named:onImage), forState: .Normal)
             } else {
-                self.setImage(offImage, forState: .Normal)
+                self.setImage(UIImage(named:offImage), forState: .Normal)
             }
         }
     }
