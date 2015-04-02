@@ -7,19 +7,28 @@
 //
 
 import UIKit
+import Foundation
 
 class TableViewController: UIKit.UIViewController, UITableViewDataSource {
     
     @IBOutlet var tableView: UITableView!
-    var items: [(String,String)] = [("test1", "An example saved sequence."), ("anotherone", "Another save file..."), ("the last", "last save file in the list")]
     
-    @IBAction func cancel(segue:UIStoryboardSegue) {
-        
+    var items: [String] = []
+    
+    func updateItems(seqKeys : [String]) {
+        items = seqKeys
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
         //self.tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "cell")
+    }
+    
+    func loadBeat() {
+        
+        
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -28,8 +37,7 @@ class TableViewController: UIKit.UIViewController, UITableViewDataSource {
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = UITableViewCell(style: UITableViewCellStyle.Value2, reuseIdentifier: nil)
-        cell.textLabel!.text = self.items[indexPath.row].0
-        cell.detailTextLabel!.text = self.items[indexPath.row].1
+        cell.textLabel!.text = self.items[indexPath.row]
         return cell
     }
     

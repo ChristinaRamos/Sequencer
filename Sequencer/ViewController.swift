@@ -13,10 +13,11 @@ import UIKit
 class ViewController: UIKit.UIViewController {
 
     @IBOutlet var totalTextField : UITextField!
-    @IBOutlet var collectionOfSnares: Array<CheckBox>?
-    @IBOutlet var collectionOfKicks: Array<CheckBox>?
-    @IBOutlet var collectionOfHats: Array<CheckBox>?
-    @IBOutlet var collectionOfCymbals: Array<CheckBox>?
+    @IBOutlet var collectionOfSnares: Array<CheckBox>!
+    @IBOutlet var collectionOfKicks: Array<CheckBox>!
+    @IBOutlet var collectionOfHats: Array<CheckBox>!
+    @IBOutlet var collectionOfCymbals: Array<CheckBox>!
+    @IBOutlet weak var tableViewController : TableViewController!
     
     var drums : Drums = Drums()
     var playing : Bool = false
@@ -30,6 +31,10 @@ class ViewController: UIKit.UIViewController {
     var kickPlayer = AVAudioPlayer()
     var hatPlayer = AVAudioPlayer()
     var cymbalPlayer = AVAudioPlayer()
+    
+    var sequenceDict : [String : Drums] = [:]
+    
+    let file = "sequencer_saves.txt"
     
     // Trigger the sound effect when the player grabs the coin
     func playSnare() {
@@ -78,6 +83,33 @@ class ViewController: UIKit.UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
     
+    func parseFileString(fileStr : String) -> [String : Drums] {
+        var lines = [[String]]()
+        var dict : [String : Drums] = [:]
+        for line in fileStr.componentsSeparatedByString(";") {
+            lines += [line.componentsSeparatedByString(":")]
+        }
+        
+        for lineSplit in lines {
+            var drum = Drums()
+            func chrToBool(ch : Character) -> Bool {if ch == "1" { return true } else { return false }}
+            
+            var convertedChars : [Bool] = Array(lineSplit[1]).map(chrToBool)
+            
+            for i in 0...15 {
+                drum.snare[i] = convertedChars[i]
+                drum.kick[i] = convertedChars[i+16]
+                drum.hat[i] = convertedChars[i+32]
+                drum.cymbal[i] = convertedChars[i+48]
+            }
+            
+            dict[lineSplit[0]] = drum
+        }
+        
+        return dict
+        
+    }
+    
     override func shouldAutorotate() -> Bool {
         return true
     }
@@ -106,16 +138,58 @@ class ViewController: UIKit.UIViewController {
     }
     
     @IBAction func newTapped(sender : AnyObject) {
-        totalTextField.text = "Untitled"
+        totalTextField.text = "Untitled Beat"
         
+        for i in 0...15 {
+            collectionOfCymbals[i].isOn = false
+            collectionOfHats[i].isOn = false
+            collectionOfKicks[i].isOn = false
+            collectionOfSnares[i].isOn = false
+            
+            drums.snare[i] = false
+            drums.kick[i] = false
+            drums.hat[i] = false
+            drums.cymbal[i] = false
+        }
     }
     
     @IBAction func loadTapped(sender : AnyObject) {
-        
+        self.tableViewController.updateItems(sequenceDict.keys.array)
     }
     
+    
+    
     @IBAction func saveTapped(sender : AnyObject) {
+        let documentDirectoryURL = NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask).first! as NSURL
+        let fileDestinationUrl = documentDirectoryURL.URLByAppendingPathComponent("file.txt")
         
+        sequenceDict[totalTextField.text] = drums
+        
+        var saveTxt = ""
+        
+        for (key, beat) in sequenceDict {
+            if(saveTxt != "") {
+                saveTxt += ";"
+            }
+            
+            saveTxt += key + ":" + writeSequence(beat.snare) +  writeSequence(beat.kick) + writeSequence(beat.hat) +  writeSequence(beat.cymbal)
+        }
+        
+        //writing
+        
+        saveTxt.writeToURL(fileDestinationUrl, atomically: true, encoding: NSUTF8StringEncoding, error: nil)
+        
+        if let mytext = String(contentsOfURL: fileDestinationUrl, encoding: NSUTF8StringEncoding, error: nil) {
+            parseFileString(mytext)
+        }
+    }
+    
+    func writeSequence (drumType : [Bool]) -> String{
+        var str = ""
+        for a in drumType {
+            str += String(Int(a))
+        }
+        return str
     }
     
     struct Drums {

@@ -23,6 +23,9 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="saveTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j9S-WO-2Kl"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dwB-p7-bus">
                                 <rect key="frame" x="192" y="49" width="85" height="42"/>
@@ -43,7 +46,7 @@
                                     <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="loadTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iLy-Au-dwR"/>
+                                    <action selector="loadTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L0w-jx-tSw"/>
                                     <segue destination="aXR-y2-6k1" kind="popoverPresentation" popoverAnchorView="dIh-hh-nP3" id="VaS-fm-qh8">
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                     </segue>
