@@ -105,6 +105,10 @@ class ViewController: UIKit.UIViewController, UIPickerViewDataSource,UIPickerVie
         // Do any additional setup after loading the view, typically from a nib.
     }
     
+    override func supportedInterfaceOrientations() -> Int {
+        return Int(UIInterfaceOrientationMask.LandscapeLeft.rawValue)
+    }
+    
     func parseFileString(fileStr : String) -> [String : Drums] {
         var lines = [[String]]()
         var dict : [String : Drums] = [:]
@@ -135,6 +139,9 @@ class ViewController: UIKit.UIViewController, UIPickerViewDataSource,UIPickerVie
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    @IBAction func viewTapped(sender : AnyObject) {
+        totalTextField.resignFirstResponder()
     }
     
     @IBAction func noteTapped(sender : AnyObject) {
